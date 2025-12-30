@@ -589,7 +589,7 @@ cluster
 # In[63]:
 
 
-#Decision Tree Classifier
+# Decision Tree Classifier
 from sklearn.model_selection import train_test_split
 Xtrain, Xtest, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 
@@ -621,7 +621,7 @@ cluster
 # In[67]:
 
 
-#Random Forest Classifier
+# Random Forest Classifier
 from sklearn.ensemble import RandomForestClassifier as RF
 Xtrain, Xtest, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 classifier = RF(n_estimators=10, criterion='entropy', random_state=0)
